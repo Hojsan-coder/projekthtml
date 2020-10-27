@@ -1,0 +1,30 @@
+.navbar {
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color:rgb(233, 216, 216) ;
+}
+footer {
+position: fixed;
+bottom: 0px;
+width: 100%;
+background: #111;
+
+
+}
+
+.main-content{
+    display: flex;
+}
