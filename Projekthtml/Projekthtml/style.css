@@ -1,0 +1,124 @@
+.navbar {
+  background-color: beige;
+  padding: 5px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: beige;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  text-align: center;
+  justify-content: space-between;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+}
+
+.flex-item {
+  color: beige;
+
+  width: 100%;
+  padding: 20px;
+}
+
+.footer-header {
+  text-transform: uppercase;
+}
+.container-news {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .container-2 {
+    flex-direction: column;
+  }
+  .container-news {
+    flex-direction: column;
+  }
+}
+
+.news-pic1 {
+  border: 3px solid blueviolet;
+  margin-top: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.news-pic2 {
+  border: 3px solid blueviolet;
+  margin-top: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.titel {
+  text-align: center;
+  background-color: beige;
+  color: black;
+}
+
+.contact-us {
+  color: black;
+  text-align: center;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gal-pic1 {
+  border: 1px solid black;
+  margin-top: 0;
+  padding: 2px;
+  text-align: center;
+}
+
+.gal-pic2 {
+  border: 1px solid black;
+  margin-top: 0;
+  padding: 2px;
+  text-align: center;
+}
+
+.gal-pic3 {
+  border: 1px solid black;
+  margin-top: 0;
+  padding: 2px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box-1 {
+  text-align: center;
+}
+
+.box-2 {
+  text-align: center;
+}
+
+.box-3 {
+  text-align: center;
+}
