@@ -11,6 +11,8 @@ a {
 
 html {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  scroll-behavior: smooth;
 }
 body {
   background-color: beige;
@@ -47,26 +49,45 @@ footer {
     text-align: center;
     font-size: 2rem;
   }
+
+  .container-2 {
+    flex-direction: column;
+  }
   .container-news {
     flex-direction: column;
   }
+}
 
+@media only screen and (max-width: 1420px) {
+  .container-news {
+    flex-direction: column;
+  }
+  body {
+    height: 200vh;
+  }
+}
+
+@media only screen and (max-width: 940px) {
   .container-2 {
     flex-direction: column;
   }
 }
 
 .news-pic1 {
-  border: 3px solid red;
   margin-top: 0;
-  padding: 2px;
+  padding: 20px;
   text-align: center;
 }
 
 .news-pic2 {
-  border: 3px solid red;
   margin-top: 0;
-  padding: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.news-pic3 {
+  margin-top: 0;
+  padding: 20px;
   text-align: center;
 }
 
